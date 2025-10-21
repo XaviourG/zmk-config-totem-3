@@ -79,7 +79,7 @@ label= "ALPHA"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SLASH
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
                 &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA       &kp DOT       &kp TAB     &lt 3 ESC    &lt 2 BSPC
-                                                    &mt LSHIFT SPACE       &lt 1 ENTER           &lt 1 ENTER       &mt RSHIFT SPACE       &lt 2  BSPC      &lt 3 ESC
+                                                    &mt LSHIFT SPACE       &lt 1 ENTER           &lt 1 ENTER       &mt RSHIFT SPACE       &lt 2 BSPC      &lt 3 ESC
                         >;
                 };
 
