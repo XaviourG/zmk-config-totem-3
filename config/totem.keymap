@@ -77,7 +77,7 @@ label= "ALPHA"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp FSLH
-                &mt LS(LC(LA(LGUI))) A       &mt LCTRL R       &mt LALT S       &mt LCMD T       &kp G           &kp M       &mt LCMD N       &mt LALT E       &mt RCTRL I       &mt RS(RC(RA(RGUI))) O
+                &mt LS(LC(LA(LGUI))) A       &mt LCTRL R       &mt LALT S       &mt LCMD T       &kp G           &kp M       &mt RCMD N       &mt RALT E       &mt RCTRL I       &mt RS(RC(RA(RGUI))) O
                 &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA       &kp DOT       &kp TAB     &lt 3 ESC    &lt 2 BSPC
                                                     &mt LSHIFT SPACE       &lt 1 ENTER           &lt 1 ENTER       &mt RSHIFT SPACE       &lt 2 BSPC      &lt 3 ESC
                         >;
@@ -103,7 +103,7 @@ label= "NUMERIC"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &trans      &trans      &trans      &trans      &trans          &kp EQUAL      &kp KP_N7   &kp KP_N8   &kp KP_N9   &trans
-                &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans          &kp KP_N0       &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
+                &mt LS(LC(LA(LGUI))) LEFT    &mt LCTRL DOWN    &mt LALT UP      &mt LCMD RIGHT   &trans          &kp KP_N0       &mt RCMD KP_N4   &mt RALT KP_N5   &mt RCTRL KP_N6   &mt RS(RC(RA(RGUI))) KP_MINUS
                 &kp DEL     &kp PG_DN   &kp PG_UP   &trans      &trans          &kp KP_MULTIPLY &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_PLUS     &trans  &trans      
                                                     &trans      &trans          &trans          &trans      &trans      &trans
                         >;
@@ -128,10 +128,10 @@ label= "SYMBOL"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                        &trans      &gif        &trans         &trans      &kp C_PP    &trans      
+                &kp BSLH    &kp AMPS    &kp DLLR    &kp DQT     &kp GRAVE       &kp AT      &kp COLON   &kp MINUS   &kp TILDE   &trans       
+                &mt LS(LC(LA(LGUI))) LT      &mt LCTRL LBKT    &mt LALT LBRC    &mt LCMD LPAR       &kp MINUS       &kp EQUAL   &mt RCMD RPAR    &mt RALT RBRC    &mt RCTRL RBKT    &mt RS(RC(RA(RGUI))) GT
+                &trans      &kp HASH    &kp PIPE    &kp SQT     &kp QMARK       &kp EXCL    &kp SEMI    &trans      &trans      &trans  &trans   &trans         
+                                                    &trans      &trans          &trans      &trans      &trans    &trans      
                         >;
                 };
 
